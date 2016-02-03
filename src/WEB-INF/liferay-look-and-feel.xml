@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE look-and-feel PUBLIC "-//Liferay//DTD Look and Feel 7.0.0//EN"
+        "http://www.liferay.com/dtd/liferay-look-and-feel_7_0_0.dtd">
+
+<look-and-feel>
+    <compatibility>
+        <version>7.0.0+</version>
+    </compatibility>
+    <theme id="news-theme" name="news-theme">
+        <template-extension>vm</template-extension>
+        <settings>
+            <setting configurable="true" key="show-portlet-names" type="checkbox" value="false"/>
+        </settings>
+        <layout-templates>
+            <custom>
+                <layout-template id="3_column_adaptive">
+                    <template-path>/layouttpl/3_column_adaptive.tpl</template-path>
+                    <wap-template-path>/layouttpl/3_column_adaptive.wap.tpl</wap-template-path>
+                    <thumbnail-path>/layouttpl/3_column_adaptive.png</thumbnail-path>
+                </layout-template>
+                <layout-template id="4_column_adaptive">
+                    <template-path>/layouttpl/4_column_adaptive.tpl</template-path>
+                    <wap-template-path>/layouttpl/4_column_adaptive.wap.tpl</wap-template-path>
+                    <thumbnail-path>/layouttpl/4_column_adaptive.png</thumbnail-path>
+                </layout-template>
+            </custom>
+        </layout-templates>
+    </theme>
+
+
+</look-and-feel>

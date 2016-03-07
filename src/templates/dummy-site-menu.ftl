@@ -1,7 +1,7 @@
 <div id="overlay-menu" class="hidden">
     <a id="overlay-menu-off" href="javascript:void(0)">
         <svg class="lexicon-icon">
-            <use xlink:href="$images_folder/lexicon/icons.svg#times"/>
+            <use xlink:href="${images_folder}/lexicon/icons.svg#times"/>
         </svg>
     </a>
 

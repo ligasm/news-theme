@@ -45,13 +45,13 @@
 
         <div class="main-controls col-xs-4 col-sm-2 col-md-1">
             <#if !is_signed_in>
-                <a data-redirect="${is_login_redirect_required?string}" href="${sign_in_url}" id="sign-in" rel="nofollow">${sign_in_text}</a>
+                <a data-redirect="${is_login_redirect_required?string}" href="${sign_in_url}" id="sign-in" rel="nofollow">
                     <svg class="lexicon-icon">
-                        <use xlink:href="$images_folder/lexicon/icons.svg#user"/>
+                        <use xlink:href="${images_folder}/lexicon/icons.svg#user"/>
                     </svg>
                 </a>
             <#else>
-                <a data-redirect="$is_login_redirect_required" href="${sign_out_url}" id="sign-in" rel="nofollow">
+                <a data-redirect="${is_login_redirect_required?string}" href="${sign_out_url}" id="sign-in" rel="nofollow">
                     <svg class="lexicon-icon">
                         <use xlink:href="${images_folder}/lexicon/icons.svg#user"/>
                     </svg>
